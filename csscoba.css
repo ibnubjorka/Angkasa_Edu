@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .kotak{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 700px) {
+    .kotak{
+        background-color: black;
+    }
+    
+  }
+
+
+  
