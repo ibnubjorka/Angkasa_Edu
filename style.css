@@ -97,8 +97,6 @@
   }
 
   .card img{
-    width: 100%;
-    height: auto;
     border-radius: 8px 8px 0 0;
   }
 
@@ -111,7 +109,7 @@
     margin-bottom: 8px;
   }
 
-  .card-content p{
+  .card-content {
     color: #666;
     font-size: 15px;
     line-height: 1.3;
@@ -251,6 +249,7 @@
   width: 50%;
   max-width: 50%;
   border-radius: 20px;
+  box-shadow: #747474 5px 5px 5px;
   margin: auto;
 
 
@@ -273,6 +272,8 @@
   margin: auto;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: #747474 5px 5px 5px;
+
 }
 
 
@@ -292,7 +293,7 @@
   color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 5.2);
-  width: 50%;
+  max-width: 65%;
   display: flex;
   margin: auto;
   padding-left: 3%;
@@ -304,66 +305,7 @@
   padding: 12px;
 }
 
-.kontak-info input{
-  width: 50%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 3px solid #ffffff;
-  border-radius: 5px;
-}
 
-.kontak-info textarea{
-  width: 500px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.kontak-info [type="submit"]{
-  width: 50%;
-  padding: 10px;
-  background-color: #7e7e7ece;
-  color: #363636;
-  border: #000000 solid 2px;
-  border-radius: 5px;
-  cursor: pointer;
-
-}
-.kontak-info [type="submit"]:hover{
-  background-color: #474747;
-  color: #ffffff;
-
-}
-.kontak-info [type="text"]{
-  width: 500px;
-  background-color: rgb(190, 190, 190);
-  border: #000000 solid 2px;
-}
-.kontak-info [type="email"]{
-  background-color: rgb(190, 190, 190);
-  border: #000000 solid 2px;
-  width: 500px;
-
-}
-.kontak-info [name="message"]{
-  color: #000000;
-  background-color: rgb(190, 190, 190);
-  border: #000000 solid 2px;
-}
-
-
-
-.kontak-info button{
-  width: 50%;
-  padding: 10px;
-  background-color: #6b6868ce;
-  color: #000000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-}
 
 .alamat{
   color: rgb(255, 255, 255);
@@ -391,6 +333,7 @@
   padding: 20px;
 }
 .copyright{
+  margin: auto;
   padding: 20px;
 }
 .link-kami{
@@ -430,6 +373,17 @@
 .transisi{
   letter-spacing: 2px;
   transition: 0,4s;
+}
+
+.gambar{
+  align-items: end;
+  
+}
+
+.img-isi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
